@@ -1,0 +1,7 @@
+redis:
+  host: "0.0.0.0:6379"
+  key: "basket:user:1"
+  buffer: 10
+  max_queue: 20000
+files:
+  csv: "./files/bench_file/1997-2017.csv"
